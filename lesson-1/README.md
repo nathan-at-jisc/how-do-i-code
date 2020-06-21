@@ -14,7 +14,7 @@ Even with zero programming knowledge it is evident that the variable `x` has a v
 y = "Hello"
 ```
 
-Here, the variable `y` has a value of `"Hello"`. Notice how the value is in quoatons mark, `""`. This is because it is a `literal` value. If we were to have:
+Here, the variable `y` has a value of `"Hello"`. Notice how the value is in quotation marks, `""`. This is because it is a `literal` value. If we were to have:
 
 ```js
 y = Hello
@@ -67,7 +67,7 @@ console.log(a)
 a = 13
 console.log(a)
 ```
-we would get an ouput like this:
+we would get an output like this:
 ```unix
 $ node example.js
 10

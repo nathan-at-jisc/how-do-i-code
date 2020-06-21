@@ -4,7 +4,7 @@
 
 Often in programming you want to perform an action based on information. An example of this might be if the user of a website is an administrator, you might want to show them different bits of information. Now, just doing an `if` statement is a massive over simplification of how authentication/authorization works, but the underlying logic is the same.
 
-Take the following code, here we're checking wether the `user` variable is equal to `admin`, and if it is we are outputing some text to the terminal/console.
+Take the following code, here we're checking wether the `user` variable is equal to `admin`, and if it is we are outputting some text to the terminal/console.
 
 ```js
 const user = "admin"
@@ -65,7 +65,7 @@ $ node example.js
 
 ```
 
-... nothing. The program will only `console.log` if the criter is met. So maybe want to add an `else` statement. The code inside the `else` statement is what runs if the `if` statement is not `true`. For example:
+... nothing. The program will only `console.log` if the criteria is met. So maybe want to add an `else` statement. The code inside the `else` statement is what runs if the `if` statement is not `true`. For example:
 
 ```js
 const user = "not an admin"
@@ -87,7 +87,7 @@ $ node example.js
 this person is not an admin
 ```
 
-This logic statement can be applied to all sorts of different things. Maybe on a website there is age verification, and if the user is younger than 18 thye're kicked off. In our example we're just going to `console.log` something, whereas in reality you might redirect to the home page if they're not over 18, other wise let them though. Let's take this example:
+This logic statement can be applied to all sorts of different things. Maybe on a website there is age verification, and if the user is younger than 18 they're kicked off. In our example we're just going to `console.log` something, whereas in reality you might redirect to the home page if they're not over 18, other wise let them though. Let's take this example:
 
 ```js
 const userAge = 19
@@ -203,7 +203,7 @@ switch(userRole){
         console.log("You're a student")
         break
     default:
-        console.log("You're not a tutor or a studen")
+        console.log("You're not a tutor or a student")
         break
 }
 ```
