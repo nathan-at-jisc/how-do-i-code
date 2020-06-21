@@ -65,7 +65,7 @@ console.log(thirdItem)
 
 The output would be the same:
 
-```terminal
+```js
 $ node example.js
 Milk
 ```
@@ -92,7 +92,7 @@ console.log(shoppingList[4])
 
 We would get:
 
-```terminal
+```js
 $ node example.js
 Eggs
 Bread
@@ -142,7 +142,7 @@ console.log(shoppingList)
 
 Will give the following output:
 
-```terminal
+```js
 $ node example.js
 [ 'Eggs', 'Bread', 'Milk', 'Oranges', 'Chips' ]
 [ 'Bread', 'Chips', 'Eggs', 'Milk', 'Oranges' ]
@@ -170,7 +170,7 @@ console.log("I would like some " + shoppingList[4])
 
 You'll notice we're using a `+` symbol, when a variable isn't a `number`, it won't perform arithmetic, it will simply `add` the 2 values, this is refered to as `concatenation`. This output of the above code will be:
 
-```terminal
+```js
 $ node example.js
 I would like some Eggs
 I would like some Bread
@@ -199,7 +199,7 @@ for(let i = 0; i < 3; i++){
 
 This will output:
 
-```terminal
+```js
 $ node example.js
 0
 1
@@ -253,7 +253,7 @@ console.log(shoppingList.length)
 
 Will output:
 
-```terminal
+```js
 $ node example.js
 5
 ```

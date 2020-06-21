@@ -86,7 +86,7 @@ console.log(a)
 ```
 
 We would get an output of:
-```terminal
+```js
 $ node example.js
 10
 /Users/test/example.js:3
@@ -146,7 +146,7 @@ console.log(sum)
 
 And we would get the following output:
 
-```terminal
+```js
 $ node example.js
 30
 ```
@@ -172,7 +172,7 @@ console.log(e)
 
 Which outputs:
 
-```terminal
+```js
 $ node example.js
 20
 80

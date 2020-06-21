@@ -11,3 +11,4 @@ By getting to the end of this document, you should be able to:
 ### Lesson 1: [Getting Started](lesson-1/README.md)
 ### Lesson 2: [Logic](lesson-2/README.md)
 ### Lesson 3: [Arrays](lesson-3/README.md)
+### Lesson 4: [Objects](lesson-4/README.md)
