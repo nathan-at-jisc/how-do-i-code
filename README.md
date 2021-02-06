@@ -14,3 +14,4 @@ By getting to the end of this document, you should be able to:
 ### Lesson 4: [Objects](lesson-4/README.md)
 ### Lesson 5: [Combining Objects and Arrays](lesson-5/README.md)
 ### Lesson 6: [Functions](lesson-6/README.md)
+### Lesson 7: TODO
